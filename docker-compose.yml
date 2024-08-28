@@ -1,0 +1,43 @@
+services:
+  influxdb:
+    image: influxdb:2.0
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb_data:/var/lib/influxdb2
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=admin123
+      - DOCKER_INFLUXDB_INIT_ORG=testorch
+      - DOCKER_INFLUXDB_INIT_BUCKET=jmeter
+      - DOCKER_INFLUXDB_INIT_RETENTION=24h
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "8087:3000"
+    depends_on:
+      - influxdb
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  jmeter:
+    image: justb4/jmeter:latest
+    container_name: jmeter
+    volumes:
+      - ./jmeter:/jmeter
+    entrypoint: >
+      sh -c "
+      while ! curl http://influxdb:8086/ping; do sleep 1; done;
+      jmeter -n -t /jmeter/testplan.jmx -l /jmeter/results/results.jtl
+      "
+
+volumes:
+  influxdb_data:
+  grafana_data:
