@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724780791184,1,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
+1724784406681,1,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
+1724801456273,2,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
+1724803859450,2,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
+1724807112202,1,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
+1724808032951,1,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
+1724808199227,1,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,Thread Group 1-1,text,false,,1098,0,1,1,http:/,0,0,0
