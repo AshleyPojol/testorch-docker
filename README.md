@@ -11,6 +11,6 @@ Password: admin123
 4. Go to "Load Data" > "Buckets" > "Create Bucket" named jmeter, then click "Create".
 ![image](https://github.com/user-attachments/assets/06be62be-c204-4138-9b21-357c0cdd4782)
 
-5. Go to "Load Data" > "Tokens" > "Generate Token", "Read/Write Token" then put in the description "jmeter", then click "Save". also select the bucket "jmeter" for the read and write.
+5. Go to "Load Data" > "Tokens" > "Generate Token", "Read/Write Token" then put in the description "jmeter", then click "Save". also select the bucket "jmeter" for the read and write. <br>
 ![image](https://github.com/user-attachments/assets/4688c159-ef4c-4375-8495-e4e29827bf32) <br>
 
