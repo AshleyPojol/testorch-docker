@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7c4f0870-5cef-46b1-a510-23c1bd13b0b5)![image](https://github.com/user-attachments/assets/ca3ebebf-f837-4b89-aa5f-c28a938b1891)# testorch-docker
+# testorch-docker
 running Jmeter, with InfluxDB 2.0 with Grafana Integration
 
 1. git clone "https://github.com/AshleyPojol/testorch-docker.git"
