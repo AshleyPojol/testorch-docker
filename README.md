@@ -80,9 +80,9 @@ click on "Save & Test".
 18. Click on "New" and "New Dashboard" > "Add Visualization" > select "InfluxDB" as your data source.
     
 19. Go back to InfluxDB on your dashboard click on the "Settings" > "Configure".
-![image](https://github.com/user-attachments/assets/4d9022ee-0d2f-40ee-9ace-eb6997612604)
+![image](https://github.com/user-attachments/assets/4d9022ee-0d2f-40ee-9ace-eb6997612604) <br>
 
-20. Click on Script Editor, then copy the whole query.
+20. Click on Script Editor, then copy the whole query. <br>
 ![image](https://github.com/user-attachments/assets/ad3fea4f-62d0-49bb-8799-7fe10d359d4e) <br>
 ![image](https://github.com/user-attachments/assets/14892daf-c820-4740-8986-efdeb50f2922) <br>
 
